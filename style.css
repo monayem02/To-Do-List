@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area{
+    width: 720px;
+    height: 85vh;
+    border: 2px solid black;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.heading{
+    margin-top: 50px;
+    font-size: 70px;
+    color: #171616;
+    font-weight: 450;
+}
+
+#task-list input:checked ~ .task {
+    text-decoration: line-through;
+}
+
+.add-task-area{
+    height: 70px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-task{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 5px;
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    outline: none;
+}
+
+#add-task-button{
+    height: 30px;
+    margin: 5px;
+}
+
+.todo-list{
+    width: 700px;
+}
+
+.delete-btn{
+    display: flex;
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 60px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.checked-class{
+    text-decoration: line-through !important;
+}
